@@ -16,7 +16,6 @@ const scriptIndex = args.findIndex(
 );
 const script = scriptIndex === -1 ? args[0] : args[scriptIndex];
 const nodeArgs = scriptIndex > 0 ? args.slice(0, scriptIndex) : [];
-console.log(process.env);
 switch (script) {
   case "build":
   case "start":
