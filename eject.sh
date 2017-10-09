@@ -15,10 +15,7 @@ rm -rf $REPO_ROOT/.git \
   README.md \
   yarn.lock
 
-cp $DIR/../tsconfig.json $PWD
-cp $DIR/../rollup.config.js $PWD
-cp $DIR/../jest.config.js $PWD
-cp -r $DIR/../src/ $PWD
+cp -r $PROJECT_ROOT/../src/ $PWD
 
 git init
 
