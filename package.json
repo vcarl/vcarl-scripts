@@ -4,6 +4,7 @@
   "bin": "./bin/vcarl-scripts.js",
   "files": ["src", "bin", "scripts", "tsconfig.json", "rollup.config.js", "jest.config.json"],
   "license": "MIT",
+  "os": ["darwin"],
   "author": {
     "name": "Carl Vitullo"
   },
