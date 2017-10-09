@@ -1,21 +1,18 @@
 #!/usr/bin/env bash
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-REPO_ROOT=$DIR/../
-PROJECT_ROOT=$REPO_ROOT/project
-
-PWD=`pwd`
+PROJECT_ROOT=$DIR/project
 
 echo "Replacing current directory with a new project"
 
-rm -rf $REPO_ROOT/.git \
-  $REPO_ROOT/bin \
-  $REPO_ROOT/scripts \
+rm -rf $DIR/.git \
+  $DIR/bin \
+  $DIR/scripts \
   package.json \
   README.md \
   yarn.lock
 
-cp -r $PROJECT_ROOT/../src/ $PWD
+cp -r $PROJECT_ROOT/ $DIR/
 
 git init
 
