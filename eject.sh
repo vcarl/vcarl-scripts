@@ -19,4 +19,6 @@ cp -r $PROJECT_ROOT/../src/ $PWD
 
 git init
 
+yarn
+
 echo "Remember to edit package.json before publishing"
