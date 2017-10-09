@@ -9,7 +9,7 @@
   },
   "repository": "vcarl/vcarl-scripts",
   "scripts": {
-    "eject": "./eject.sh"
+    "eject": "./eject.sh; rm ./eject.sh"
   },
   "dependencies": {
     "@types/jest": "^21.1.1",
