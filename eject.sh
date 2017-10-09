@@ -14,6 +14,8 @@ rm -rf $DIR/.git \
 
 cp -r $PROJECT_ROOT/ $DIR/
 
+rm -rf $DIR/project
+
 git init
 
 yarn
