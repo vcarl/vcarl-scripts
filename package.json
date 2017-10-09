@@ -1,0 +1,36 @@
+{
+  "version": "0.0.0",
+  "name": "vcarl-scripts",
+  "bin": "./bin/vcarl-scripts.js",
+  "files": ["src", "bin", "scripts", "tsconfig.json", "rollup.config.js", "jest.config.json"],
+  "license": "MIT",
+  "author": {
+    "name": "Carl Vitullo"
+  },
+  "repository": "vcarl/vcarl-scripts",
+  "scripts": {
+    "eject": "./eject.sh"
+  },
+  "dependencies": {
+    "@types/jest": "^21.1.1",
+    "@types/node": "^8.0.28",
+    "babel-core": "^6",
+    "cross-env": "^5.0.5",
+    "enzyme": "^3.0.0",
+    "jest": "^21.2.1",
+    "react-dev-utils": "^4.1.0",
+    "resolve": "^1",
+    "rimraf": "^2.6.2",
+    "rollup-plugin-commonjs": "^8.2.1",
+    "rollup-plugin-filesize": "^1.4.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rollup": "^0.50.0",
+    "ts-jest": "^21.0.1",
+    "tsc-watch": "^1.0.7",
+    "tslib": "^1.7.1",
+    "typescript": "^2.5.2"
+  }
+}
